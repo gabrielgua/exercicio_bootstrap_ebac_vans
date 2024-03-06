@@ -3,13 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Restaurante</title>
+    <title>EBAC Shoes</title>
     
     
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Madimi+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <link rel="stylesheet" href="styles.css">
 
@@ -17,29 +17,25 @@
 <body>
     <header class="navbar navbar-expand-lg sticky-top p-3 shadow" id="cabecalho">
         <div class="container">
-            <h1 class="navbar-brand m-0">Nome de Restaurante</h1>
+            <h1 class="navbar-brand m-0 fs-3">EBAC <span class="text-colored text-logo">VANS</span></h1>
             <button class="navbar-toggler fs-2" data-bs-toggle="collapse" data-bs-target="#menu-navegacao">
-                <!-- <span class="navbar-toggler-icon"></span> -->
                 <i class="bi bi-list"></i>
             </button>
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-lg-flex mt-md-3 mt-sm-3 mt-lg-0">
                     <li class="nav-item fw-bold">
                         <a class="nav-link" href="#sobre">
-                            <i class="bi bi-house-fill me-1"></i>
                             Sobre nós
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a class="nav-link" href="#eventos">
-                            <i class="bi bi-calendar-check-fill me-1"></i>
-                            Eventos
+                        <a class="nav-link" href="#categorias">
+                            Categorias
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a class="nav-link" href="#cardapio">
-                            <i class="bi bi-bag-heart-fill me-1"></i>
-                            Cardápio
+                        <a class="nav-link" href="#catalogo">
+                            Catálogo
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
@@ -58,13 +54,10 @@
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="5000">
-                        <img src="images/slides/slide1.png">
+                        <img src="https://imageio.forbes.com/specials-images/imageserve/6522c32af0f4d0f1c869d520/Close-up-of-young-man-riding-a-skateboard-at-the-skate-park-/0x0.jpg">
                     </div>
                     <div class="carousel-item" data-bs-interval="5000">
-                        <img src="images/slides/slide2.png">
-                    </div>
-                    <div class="carousel-item" data-bs-interval="5000">
-                        <img src="images/slides/slide3.png">
+                        <img src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h7e/h60/h00/h00/11857203363870/SP24-SkateClassics-hero-02.jpg">
                     </div>
                 </div>
     
@@ -78,24 +71,23 @@
                 <div class="carousel-indicators">
                     <button class="active" type="button" data-bs-target="#carousel" data-bs-slide-to="0"></button>
                     <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
-                    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
                 </div>
             </div>
     
             <div class="container py-3 py-md-5">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-md-5">
-                        <img src="images/restaurante.jpg" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
+                        <img src="images/vans-logo.png" class="d-block w-100 rounded" alt="Foto do espaço interno do restaurante">
                     </div>
                     <div class="col-md-7 mt-3 mt-md-0">
-                        <h2 class="section-title">Sobre o <span class="text-colored">restaurante</span></h2>
+                        <h2 class="section-title">Sobre a <span class="text-colored text-logo">VANS</span></h2>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident impedit quas iure, vero, doloremque nisi necessitatibus suscipit dolor similique, rerum alias nostrum voluptate? Vitae, eos quam eius accusamus eveniet quasi!</p>
-                        <h3 class="section-title">Sobre o <span class="text-colored">espaço</span></h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus tempora ipsa nulla quisquam non. Ea quasi nesciunt voluptates reiciendis, inventore nulla sit officia soluta placeat numquam aliquid quis velit.</p>
+                        <h3 class="section-title">Aqui você vai <span class="text-colored">encontrar</span>:</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero necessitatibus tempora ipsa nulla quisquam non. Ea quasi nesciunt voluptates reiciendis, </p>
                         <ul>
-                            <li>Item 1</li>
-                            <li>Item 2</li>
-                            <li>Item 3</li>
+                            <li>Calçados</li>
+                            <li>Roupas</li>
+                            <li>Acessórios</li>
                         </ul>
                     </div>
                 </div>
@@ -103,33 +95,33 @@
         </section>
 
 
-        <section id="eventos" class="py-5">
+        <section id="categorias" class="py-5">
             <div class="container">
                 <div class="row mb-5">
-                    <h2 class="section-title text-center">Para todas as <span class="text-colored">ocasiões</span>.</h2>
+                    <h2 class="section-title text-center">Nossos <span class="text-colored text-logo category-title">Produtos</span></h2>
                 </div>
                 <div class="row">
                     <div class="col-md-4">
-                        <img src="images/eventos/aniversario.jpg" class="d-block w-100 rounded" alt="Imagem de aniversario" >
-                        <h3 class="section-title mt-4">
-                            <i class="bi bi-cake2-fill text-colored"></i>
-                            Aniversário
+                        <img src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h64/h38/h00/h00/11375708110878/1004300110007U-01-BASEIMAGE-Hires.jpg" class="d-block w-100 rounded" alt="Imagem de aniversario" >
+                        <h3 class="section-title mt-3 text-colored text-logo category-title">
+                            <!-- <i class="bi bi-cake2-fill text-colored"></i> -->
+                            Calçados
                         </h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, provident dolorum. Fuga, quasi. Quo repellendus porro perspiciatis laborum, alias dolor praesentium, omnis iste architecto, error incidunt maiores nostrum! Sit, exercitationem.</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="images/eventos/casamento.jpg" class="d-block w-100 rounded" alt="Imagem de aniversario" >
-                        <h3 class="section-title mt-4">
-                            <i class="bi bi-arrow-through-heart-fill text-colored"></i>
-                            Casamento
+                        <img src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/hca/h48/h00/h00/11853577388062/4706700290001U-01-BASEIMAGE-Hires.jpg" class="d-block w-100 rounded" alt="Imagem de aniversario" >
+                        <h3 class="section-title mt-3 text-colored text-logo category-title">
+                            <!-- <i class="bi bi-arrow-through-heart-fill text-colored"></i> -->
+                            Roupas
                         </h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, provident dolorum. Fuga, quasi. Quo repellendus porro perspiciatis laborum, alias dolor praesentium, omnis iste architecto, error incidunt maiores nostrum! Sit, exercitationem.</p>
                     </div>
                     <div class="col-md-4">
-                        <img src="images/eventos/confraternizacoes.jpg" class="d-block w-100 rounded" alt="Imagem de aniversario" >
-                        <h3 class="section-title mt-4">
-                            <i class="bi bi-people-fill text-colored"></i>
-                            Confraternizações
+                        <img src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h7b/hb5/h00/h00/11862261727262/4601300170001U-01-BASEIMAGE-Hires.jpg" class="d-block w-100 rounded" alt="Imagem de aniversario" >
+                        <h3 class="section-title mt-3 text-colored text-logo category-title">
+                            <!-- <i class="bi bi-people-fill text-colored"></i> -->
+                            Acessórios
                         </h3>
                         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem, provident dolorum. Fuga, quasi. Quo repellendus porro perspiciatis laborum, alias dolor praesentium, omnis iste architecto, error incidunt maiores nostrum! Sit, exercitationem.</p>
                     </div>
@@ -138,127 +130,92 @@
             </div>
         </section>
 
-        <section id="cardapio">
-            <div class="container">
+        <section id="catalogo">
+            <div class="container pb-5">
                 <div class="row py-5">
-                    <h2 class="section-title text-center">Nosso <span class="text-colored">cardápio</span></h2>
+                    <h2 class="section-title text-center">Nosso <span class="text-colored text-logo">Catálogo</span></h2>
                 </div>
                 <div class="row">
                     <aside class="col-md-2 me-md-4 mb-sm-4">
                         <nav class="nav nav-pills flex-column nav-cardapio">
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-sem-alcool" class="nav-link fw-bold text-start text-colored active">Bebidas não alcoólicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#bebidas-alcoolicas" class="nav-link fw-bold text-start text-colored">Bebidas alcoólicas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#entradas" class="nav-link fw-bold text-start text-colored">Entradas</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#pratos-principais" class="nav-link fw-bold text-start text-colored">Pratos principais</button>
-                            <button type="button" data-bs-toggle="tab" data-bs-target="#sobremesas" class="nav-link fw-bold text-start text-colored">Sobremesas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#calcados" class="nav-link fw-bold text-start text-colored active">Calçados</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#roupas" class="nav-link fw-bold text-start text-colored">Roupas</button>
+                            <button type="button" data-bs-toggle="tab" data-bs-target="#acessorios" class="nav-link fw-bold text-start text-colored">Acessórios</button>
                         </nav>
                     </aside>
                     <div class="col-md-9">
-                        <div class="tab-content">
-                            <div class="tab-pane active" id="bebidas-sem-alcool">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/bebidas/coca-cola.jpg" alt="Coca cola">
-                                        <h5 class="text-colored fw-bold">Coca-Cola</h5>
+                        <div class="tab-content container">
+                            <div class="tab-pane active" id="calcados">
+                                <div class="row ">
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h64/h38/h00/h00/11375708110878/1004300110007U-01-BASEIMAGE-Hires.jpg" alt="Calcado vans">
+                                        <h5 class="text-colored fw-bold">TÊNIS SKATE SK8-HI NAVY WHITE</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/bebidas/suco.jpg" alt="Suco de laranja">
-                                        <h5 class="text-colored fw-bold">Suco de laranja</h5>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h80/h0e/h00/h00/11292710043678/1002001090019U-01-BASEIMAGE-Hires.jpg" alt="Calcado vans">
+                                        <h5 class="text-colored fw-bold">TÊNIS SK8-HI TRUEWHITE</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/bebidas/suco.jpg" alt="Suco de laranja">
-                                        <h5 class="text-colored fw-bold">Suco de laranja</h5>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h49/ha4/h00/h00/11785225764894/1002000850180U-01-BASEIMAGE-Hires.jpg" alt="Calcado vans">
+                                        <h5 class="text-colored fw-bold">TÊNIS OLD SKOOL BUNGEE CORD</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/bebidas/suco.jpg" alt="Suco de laranja">
-                                        <h5 class="text-colored fw-bold">Suco de laranja</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/bebidas/coca-cola.jpg" alt="Coca cola">
-                                        <h5 class="text-colored fw-bold">Coca-Cola</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="tab-pane" id="bebidas-alcoolicas">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/bebidas/cerveja.jpg" alt="Cerveja">
-                                        <h5 class="text-colored fw-bold">Cerveja</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/bebidas/vinho.jpg" alt="Vinho">
-                                        <h5 class="text-colored fw-bold">Vinho</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="tab-pane" id="entradas">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/entradas/entrada.jpg" alt="Entrada">
-                                        <h5 class="text-colored fw-bold">Entradas</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/entradas/entrada.jpg" alt="Entrada">
-                                        <h5 class="text-colored fw-bold">Entradas</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/entradas/entrada.jpg" alt="Entrada">
-                                        <h5 class="text-colored fw-bold">Entradas</h5>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h2a/h29/h00/h00/11375692218398/1002900200001U-01-BASEIMAGE-Hires.jpg" alt="Calcado vans">
+                                        <h5 class="text-colored fw-bold">TÊNIS SKATE ERA BLACK WHITE</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                     
+                                </div>
+                            </div>
+                            <div class="tab-pane" id="roupas">
+                                <div class="row">
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h2d/hc2/h00/h00/11620733681694/4703100990002U-01-BASEIMAGE-Hires.jpg" alt="Roupa vans">
+                                        <h5 class="text-colored fw-bold">CAMISETA FLORIANOPOLIS SS BURGUNDY</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h55/h28/h00/h00/11555924639774/4701300100002U-01-BASEIMAGE-Hires.jpg" alt="Roupa vans">
+                                        <h5 class="text-colored fw-bold">CALÇA CORE BASIC FLEECE BLACK</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h63/hbb/h00/h00/11557414371358/4703101370001U-01-BASEIMAGE-Hires.jpg" alt="Roupa vans">
+                                        <h5 class="text-colored fw-bold">CAMISETA LEFT CHEST LOGO II SS BLACK</h5>
+                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    </div>
                                 </div>
                             </div>
 
-                            <div class="tab-pane" id="pratos-principais">
+                            <div class="tab-pane" id="acessorios">
                                 <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/pratos/pizza.jpg" alt="Pizza">
-                                        <h5 class="text-colored fw-bold">Pizza</h5>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h76/hc8/h00/h00/11749452840990/4600400180002U-01-BASEIMAGE-Hires.jpg" alt="Acessorio vans">
+                                        <h5 class="text-colored fw-bold">MOCHILA WARP SLING COMPL. ULTRA NEO VR3 COSMIC SKY</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/pratos/salmao.jpg" alt="Salmao">
-                                        <h5 class="text-colored fw-bold">Salmão</h5>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h0a/h36/h00/h00/11645917986846/4604900030001U-01-BASEIMAGE-Hires.jpg" alt="Acessorio vans">
+                                        <h5 class="text-colored fw-bold">BOLSA H20 CROSSBODY CAMO FLORAL LODEN GREEN WHITE</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/pratos/pizza.jpg" alt="Pizza">
-                                        <h5 class="text-colored fw-bold">Pizza</h5>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/h8a/hd6/h00/h00/11395795812382/4601800410001U-01-BASEIMAGE-Hires.jpg" alt="Acessorio vans">
+                                        <h5 class="text-colored fw-bold">MEIA CREW 39/4 BENEGAS X ENARSON BLACK</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
-                                    
-                                    
-                                    
-                                </div>
-                            </div>
-
-                            <div class="tab-pane" id="sobremesas">
-                                <div class="row">
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/sobremesas/bolo.jpg" alt="Bolo">
-                                        <h5 class="text-colored fw-bold">Bolo</h5>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                    </div>
-                                    <div class="col-md-3">
-                                        <img class="d-block w-100 mb-3" src="images/cardapio/sobremesas/cupcake.jpg" alt="Cupcake">
-                                        <h5 class="text-colored fw-bold">Cupcake</h5>
+                                    <div class="col-md-3 rounded">
+                                        <img class="d-block w-100 mb-3 rounded p-3 bg-light" src="https://secure-static.vans.com.br/medias/sys_master/vans/vans/hee/h7d/h00/h00/11384775114782/4300100030005U-01-BASEIMAGE-Hires.jpg" alt="Acessorio vans">
+                                        <h5 class="text-colored fw-bold">CINTO DEPPSTER II WEB BLACK WHITE</h5>
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                                     </div>
                                 </div>
                             </div>
+
+                            
                         </div>
                     </div>
                 </div>

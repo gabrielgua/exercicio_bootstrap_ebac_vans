@@ -1,15 +1,19 @@
+:root {
+    --clr-text-primary: red;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
 }
 
 
 .navbar {
-    background-color: #E15F41;
+    background-color: var(--clr-text-primary);
 }
 
 #cabecalho .nav .nav-link.active {
     background-color: white;
-    color: #E15F41;
+    color: var(--clr-text-primary);
 }
 
 .navbar-brand,
@@ -21,8 +25,7 @@ body {
 }
 
 .navbar-brand {
-    font-family: 'Pacifico', cursive;
-
+    font-family: 'Madimi One', sans-serif;
 }
 
 .navbar-toggler {
@@ -40,27 +43,39 @@ body {
 }
 
 .section-title {
-    font-family: 'Pacifico', cursive;
+    font-family: 'Madimi One', sans-serif;
 }
 
 #sobre,
-#cardapio {
+#catalogo {
     background-color: #FFEAE6;
 }
 
 .text-colored {
-    color: #E15F41;
+    color: var(--clr-text-primary);
+}
+
+.text-logo {
+    background-color: white;
+    padding-inline: .5rem;
+    border-radius: .25rem;
+}
+
+.category-title {
+    padding: .25rem .5rem;
+    width: max-content;
+    background-color: #FFEAE6;
 }
 
 
 #contato button,
 .nav-cardapio .nav-link.active {
-    background-color: #E15F41;
+    background-color: var(--clr-text-primary);
     color: white;
 }
 
 .nav-cardapio .nav-link:hover {
-    color: #E15F41;  
+    color: var(--clr-text-primary);  
 }
 
 .social-links li {
